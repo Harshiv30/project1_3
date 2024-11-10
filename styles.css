@@ -1,0 +1,64 @@
+/* Style for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333; /* Dark grey text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for header section */
+header {
+    background-color: #4682b4; /* Steel blue background */
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0.2em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+/* Navigation menu */
+nav ul {
+    list-style: none;
+    background-color: #333;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Yellow when hovering */
+}
+
+/* Main content section */
+section {
+    padding: 2em;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    font-size: 0.9em;
+}
